@@ -16,6 +16,8 @@ import ServiceItemCard from './components/ServiceItemCard'
 
 function App() {
   
+  const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
+
 
   const servicesData = [
 
@@ -23,19 +25,19 @@ function App() {
         id: 1, 
         title: 'Legacy', 
         tags: "History, Heritage, La Masia, Icons, Dynasty, Tradition, Catalonia, Generations, Philosophy, Evolution, Roots", 
-        images: [legacy2,legacy1,legacy3] 
+        images: shuffle([legacy2,legacy1,legacy3]) 
       },
       { 
         id: 2, 
         title: 'Passion', 
         tags: "Fans, Energy, Atmosphere, Emotion, Loyalty, Chants, Camp Nou, Intensity, Devotion, Fire, Unity", 
-        images: [passion2,passion1,passion3] 
+        images: shuffle([passion2,passion1,passion3]) 
       },
       { 
         id: 3, 
         title: 'Glory', 
         tags: "Trophies, Champions, Victory, Dominance, Titles, UCL Nights, Greatness, Triumph, Records, Legends, Success", 
-        images: [glory2,glory1,glory3] 
+        images: shuffle([glory2,glory1,glory3]) 
       }
     ];
 
