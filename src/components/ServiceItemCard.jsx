@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import gsap from 'gsap';
 import Matter from 'matter-js';
+import './ServiceItemCard.css'
 
 function getTagDimensions(text) {
     const div = document.createElement('div');
