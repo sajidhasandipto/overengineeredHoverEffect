@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
-import { ChevronDown} from 'lucide-react';
+import { ChevronsDown } from 'lucide-react';
 
 import './ScrollAnimation.css'
 
@@ -198,7 +198,7 @@ const ScrollAnimation = () => {
                 >
                     <span>Every movement dictates the rhythm</span>
                     <p className='flex justify-center text-[12rem] pt-30 '>
-                        <ChevronDown size={100}/>
+                        <ChevronsDown  size={100}/>
                     </p>
                 </h1>
             </section>
@@ -369,7 +369,7 @@ const ScrollAnimation = () => {
                 <h1 className='text-6xl font-bold'>
                     <span>A timeline measured in golden moments</span>
                     <p className='flex justify-center text-[12rem] pt-40 '>
-                        <ChevronDown size={100}/>
+                        <ChevronsDown size={100}/>
                     </p>
                 </h1>
             </section>
