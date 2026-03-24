@@ -36,7 +36,7 @@ const ServiceItemCard = ({ title, tagString, images }) => {
             ease: 'elastic.out(1, 0.5)'
         });
         gsap.to(titleRef.current, {
-            color: '#ffffff',
+            color: '#be3931',
             duration: 0.3
         });
 
@@ -66,7 +66,7 @@ const ServiceItemCard = ({ title, tagString, images }) => {
             duration: 0.6, ease: 'power3.inOut'
         });
         gsap.to(titleRef.current, {
-            color: '#ff3831',
+            color: '#ffffff',
             duration: 0.3
         });
 
@@ -175,7 +175,7 @@ const ServiceItemCard = ({ title, tagString, images }) => {
                 ref={titleRef}
                 className='relative uppercase font-barlow text-[6rem]
                   font-black tracking-tight-custom leading-none
-                  bg-[#171717] z-2 pointer-events-none'
+                  bg-[#171717] z-2 pointer-events-none text-white'
             >
                 {title}
             </h1>

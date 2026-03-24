@@ -14,3 +14,24 @@
   }
 }
 
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 4px; 
+}
+
+/* background behind the thumb */
+::-webkit-scrollbar-track {
+  background: #171717; 
+}
+
+/* The draggable thumb */
+::-webkit-scrollbar-thumb {
+  background:#be3931;       
+  border-radius: 999px;       
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#3a3a3a; 
+}
+
